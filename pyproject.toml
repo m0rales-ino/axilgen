@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axilgen"
+version = "0.1.0"
+description = "Platform-independent AXI Lite Registers generator"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Morales" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Ubuntu 24 LTS",
+]
+
+dependencies = [
+    
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
